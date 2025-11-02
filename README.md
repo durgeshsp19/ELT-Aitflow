@@ -13,6 +13,7 @@ The pipeline consists of several DAGs that work together to:
 
 ## Architecture
 
+Image: https://github.com/durgeshsp19/ELT-Aitflow/blob/main/Test/394238803-87cdc79c-c9a1-4c4d-887a-ab6007394bc7.png
 
 
 
@@ -22,6 +23,9 @@ The pipeline consists of several DAGs that work together to:
 3. **Transform**:
    - Create country-specific tables in the transform layer.
    - Generate reporting views for each country with filtered insights.
+
+Image: https://github.com/durgeshsp19/ELT-Aitflow/blob/main/Test/394241166-8e8b8373-9d2a-417b-9fd9-5f42171c06f8.png
+
 
 ### Data Layers
 1. **Staging Layer**: Raw data from the CSV file.
@@ -53,6 +57,8 @@ The pipeline consists of several DAGs that work together to:
 
 
 ## End Result
+
+Image: https://github.com/durgeshsp19/ELT-Aitflow/blob/main/Test/394241371-d06f0d3e-a1d0-404a-9eb7-c61c85df8257.png
 
 ### Airflow Pipeline
 
