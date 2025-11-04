@@ -35,5 +35,4 @@ with DAG(
         field_delimiter=',',
         autodetect=True,
     )
-
     load_csv_to_bigquery
